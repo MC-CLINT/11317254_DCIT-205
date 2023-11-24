@@ -1,0 +1,61 @@
+
+.header{
+    background-color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        z-index:1000;
+        margin-top: 0;
+        margin-bottom: 620px;
+    
+    
+        position: fixed;
+        top:0;
+        bottom: 0;
+    }
+    .Left-head{
+        display: flex;
+        align-items: center;
+        margin-top:10px;
+        width:400px;
+        height: 5px;
+    
+    
+        border:thin;
+        border-top: 0;
+        border-right: 0;
+        border-left:0;
+        border-width: 1px;
+        border-bottom-color: rgb(41, 65, 116);
+    }
+    
+    .comScience_logo{
+        height:40px;
+        margin-bottom: 5px;
+    }
+    
+    .Right-head{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width:935px;
+        height: 5px;
+        margin-top:10px;
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-bottom: 5px;
+    padding-top: 0;
+    
+        
+    }
+    
+    .Home, .Academic, .About, .Faqs, .Contact{
+     font-size:12px;
+     font-weight: 550;
+     text-decoration: none;
+    }
+    
+    .Home:hover , .Academic:hover, .About:hover,.Faqs:hover, .Contact:hover{
+        cursor: pointer;
+    }

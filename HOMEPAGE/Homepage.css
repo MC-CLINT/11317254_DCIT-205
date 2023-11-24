@@ -1,3 +1,16 @@
+body{
+   
+   padding-left: 0;
+   padding-right: 0;
+   padding-bottom: 0;
+
+}
+
+p{
+    text-decoration: none;
+}
+
+
 .header{
 
     display: flex;
@@ -19,8 +32,16 @@
     display: flex;
     align-items: center;
     margin-top:30px;
-    width:300px;
-    height: 60px;
+    width:400px;
+    height: 10px;
+
+
+    border:thin;
+    border-top: 0;
+    border-right: 0;
+    border-left:0;
+    border-width: 1px;
+    border-bottom-color: rgb(41, 65, 116);
 }
 
 .comScience_logo{
@@ -30,12 +51,31 @@
 .Right-head{
     display: flex;
     align-items: center;
-    flex:1;
-    background-color: aqua;
-    width:1150px;
-    height: 60px;
-    margin-top:30px;
+    justify-content: space-between;
+    width:921px;
+    height: 15px;
+    margin-top:40px;
+    padding-right: 0px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+
+    border-style: solid;
+    border-top: 0;
+    border-right: 0;
+    border-left:0;
+    border-width: 1px;
+    border-bottom-color: rgb(197, 193, 193);
+
     
+}
+
+.Home, .Academic, .About, .Faqs, .Contact{
+ font-size:12px;
+ font-weight: 550;
+}
+
+.Home:hover , .Academic:hover, .About:hover,.Faqs:hover, .Contact:hover{
+    cursor: pointer;
 }
 
 .UpperDiv{
@@ -58,9 +98,281 @@
     margin-bottom:80px;
 }
 
+.Banner-text{
+    position: absolute;
+    top: 40%;
+    text-align: center;
+    text-transform: capitalize;
+    bottom: 60%;
+    left: 35%;
+    color: rgb(25, 5, 70);
+}
+
+.READ-MORE-button{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+
+.READ-MORE-button:hover{
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    color:rgb(4, 4, 43);
+}
 
 .LowerDiv{
-    background-color: black;
-    height: 350px;
-    margin-left: 0;
+   
+    background-color: whitesmoke;
+    height: 400px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.Lower-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(235, 234, 234);
+    padding-left: 10px;
+    padding-right: 20px;
+    margin-top: 50px;
+    
+}
+
+.Admissions{
+    
+    border: solid 1px black;
+    background-color: white;
+    height:300px;
+    width:250px;
+
+}
+
+.Admissions-Img{
+height: 200px;
+
+object-fit: contain;
+position: relative;
+right: 5px;
+left: 20px;
+top: -25px;
+}
+
+.Admissions-Head{
+position: relative;
+left: 72px;
+color: white;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+}
+
+.Admissions-Para{
+    color: white;
+    text-align: center;
+    height: 113px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Admissions-Info{
+    position: relative;
+    top:-75px;
+    background-color: rgb(2, 2, 51);
+
+}
+
+.Admissions-Info:hover{
+    cursor: pointer;
+    background-color: rgb(223, 148, 9);
+
+}
+
+
+.Digital-Courses{
+    border: solid 1px black;
+    background-color: white;
+    height:300px;
+    width:250px;
+
+}
+
+    .Digital-Courses-Head{
+    position: relative;
+    left: 50px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .Digital-Courses-Para{
+    color: white;
+    text-align: center;
+    height: 113px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Digital-Courses-Info{
+    position: relative;
+    top:-200px;
+    background-color: rgb(2, 2, 51);
+
+
+}
+
+.Digital-Courses-Info:hover{
+    cursor: pointer;
+    background-color: rgb(223, 148, 9);
+}
+.Digital-Courses-Img{
+    height: 325px;
+
+    object-fit: contain;
+    position: relative;
+    right: 5px;
+    left: -40px;
+    top: -90px;
+   
+}
+
+
+
+
+.Staff-Bio{
+    border: solid 1px black;
+    background-color: white;
+    height:300px;
+    width:250px;
+}
+
+
+.Staff-Bio-Head{
+    position: relative;
+    left: 78px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.Staff-Bio-Info{
+    position: relative;
+    top: -75px;
+    background-color: rgb(2, 2, 51);
+   
+}
+
+.Staff-Bio-Para{
+    color: white;
+    text-align: center;
+    height: 113px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Staff-Bio-Info:hover{
+    cursor: pointer;
+    background-color: rgb(223, 148, 9);
+}
+
+.Staff-Bio-Img{
+    height: 200px;
+
+    object-fit: contain;
+    position: relative;
+    right: 100px;
+    left: -25px;
+    top: -25px;
+}
+
+
+
+
+.Project{
+    border: solid 1px black;
+    background-color: white;
+    height:300px;
+    width:250px;
+}
+
+.Project-Img{
+    height: 115px;
+
+    object-fit: contain;
+    position: relative;
+    right: 50px;
+    left: 70px;
+    top: 15px;
+}
+
+.Project-Head{
+    position: relative;
+    left:85px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.Project-Info{
+    position: relative;
+    top:10px;
+    background-color: rgb(2, 2, 51);
+  
+}
+
+.Project-Para{
+    color: white;
+    text-align: center;
+    height: 113px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.Project-Info:hover{
+    cursor: pointer;
+    background-color: rgb(223, 148, 9);
+}
+
+.News{
+    border: solid 1px black;
+    background-color: white;
+    height:300px;
+    width:250px;
+    
+}
+
+.News-Head{
+    position: relative;
+    left:85px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.News-Info{
+    position: relative;
+    top:-55px;
+    background-color: rgb(2, 2, 51);
+  
+}
+
+.News-Para{
+    color: white;
+    text-align: center;
+    height: 113px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.News-Info:hover{
+    cursor: pointer;
+    background-color: rgb(223, 148, 9);
+}
+.News-Img{
+    height: 180px;
+    position: relative;
+    right: -300px;
+    left: -5px;
+    top: -20px;
+        
 }
