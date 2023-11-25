@@ -1,3 +1,9 @@
+body{
+    background-color: rgb(2, 2, 51);
+
+}
+
+
 
 .header{
     background-color: white;
@@ -59,4 +65,23 @@
     
     .Home:hover , .Academic:hover, .About:hover,.Faqs:hover, .Contact:hover{
         cursor: pointer;
+    }
+
+
+
+    .Main-Head{
+        color: rgb(238, 186, 16);
+        margin-top: 110px;
+        margin-bottom: 0;
+        font-size: 50px;
+        margin-left: 480px;
+    }
+
+
+    .Main-Body{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: white;
+        text-align: center;
+        font-size: 22px;
+        margin-bottom:40px;
     }
