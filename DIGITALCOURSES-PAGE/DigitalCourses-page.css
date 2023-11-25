@@ -1,3 +1,12 @@
+body{
+background-color: rgb(2, 2, 51);
+margin: 0;
+margin-left: 0;
+margin-right: 0;
+padding: 0;
+
+}
+
 
 .header{
     background-color: white;
@@ -59,3 +68,159 @@
     .Home:hover , .Academic:hover, .About:hover,.Faqs:hover, .Contact:hover{
         cursor: pointer;
     }
+
+
+
+    .Page-Grid{
+        display: grid;
+        grid-template-columns: 1350px;
+        width: 100%;
+    }
+
+    .Upper{
+        height: 200px;
+    }
+
+    .Lower{
+        width: 100%;
+        height: 400px;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        column-gap: 30px;
+        padding-bottom: 30px;
+        padding-top: 50px;
+        
+        
+    }
+
+    .Head-digital{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: white;
+        margin-top: 100px;
+        margin-left: 425px;
+        font-size: 60px;
+    }
+
+
+
+    .Body-digital{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: white;
+        text-align: center;
+        font-size: 18px;
+
+    }
+
+    .Cloud-Computing{
+        border-style: solid;
+        border-color: black;
+        border-width: 1px;
+        display: flex;
+        background-color: whitesmoke;
+        flex: 100px;
+        margin-left: 10px;
+       
+    }
+
+
+    .Machine-Learning{
+        border-style: solid;
+        border-color: black;
+        border-width: 1px;
+        display: flex;
+        background-color: whitesmoke;
+        flex: 100px;
+    }
+
+
+    .Web-Development{
+        border-style: solid;
+        border-color: black;
+        border-width: 1px;
+        display: flex;
+        background-color: whitesmoke;
+        flex: 100px;
+    }
+
+    .IT-Security{
+        border-style: solid;
+        border-color: black;
+        border-width: 1px;
+        display: flex;
+        background-color: whitesmoke;
+        flex: 100px;
+        margin-right: 10px;
+    }
+
+    .CC-Img{
+        object-fit: cover;
+        width: 310px;
+    }
+
+    .CC-Img:hover{
+        cursor: pointer;
+    }
+
+    .CC-Head{
+        color: rgb(2, 2, 51);
+        position: relative;
+       top: 300px;
+      margin-left: 80px;
+       font-size: 20px;
+    
+    }
+       
+
+    .ML-Img{
+        object-fit: cover;
+        width: 300px;
+    }
+
+    .ML-Head{
+        color: rgb(2, 2, 51);
+        position: relative;
+       top: 225px;
+       margin-left: 430px;
+       font-size: 20px;
+    }
+
+    .ML-Img:hover{
+        cursor: pointer;
+    }
+
+    .WD-Img{
+        object-fit: cover;
+        width: 300px;
+
+    }
+
+    .WD-Img:hover{
+        cursor: pointer;
+    }
+
+    .WD-Head{
+        color: rgb(2, 2, 51);
+        position: relative;
+       top: 150px;
+       margin-left: 770px;
+       font-size: 20px;
+    }
+
+    .ITS-Img{
+        object-fit: cover;
+        width: 320px;
+    }
+
+    .ITS-Img:hover{
+        cursor: pointer;
+    }
+.ITS-Head{
+    color: rgb(2, 2, 51);
+    position: relative;
+    top: 70px;
+    margin-left: 1150px;
+    font-size: 20px;
+}
+    
+    
