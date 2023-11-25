@@ -74,10 +74,165 @@ padding-top: 0;
     color: white;
     margin-top: 70px;
 
-    position: fixed;
-    left: 300px;
+    position: absolute;
+    left: 600px;
+    vertical-align: middle;
     
 
 }
 
+.Welcome-note{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    display: inline-block;
+    margin-top: 120px;
+    text-align: center;
+
+}
+
+.GTKU-Head{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    position: absolute;
+    left:590px;
+
+    vertical-align:middle;
+}
+
+.GTKU-note{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    margin-top: 65px;
+    position: absolute;
+    left: 300px;
+    vertical-align: middle;
+
+}
+
+
+.Organisation{
+    display: inline-block;
+}
+.OOrg-Head{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    margin-top: 120px;
+   position: relative;
+   left: 10px;
+
+}
+.OOrg-note{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:white;
+    display: inline-block;
+    position: relative;
+    left: 10px;
+    top: -160px;
+
+
+}
+
+.OOrg-Img{
+    display: inline-block;
+   width: 400px;
+   height: 300px;
+    position: relative;
+    left: 70px;
+    top:-10px;
+}
+
+.Community{
+    display: inline-block;
+}
+
+.OCom-Head{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    position: relative;
+    left: 180px;
+    top: 0px;
+}
+
+.OCom-note{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:white;
+    display: inline-block;
+    position: relative;
+    top: -20px;
+    left: 10px;
+    text-align: center;
+}
+
+
+.OCom-Img{
+    display: block;
+   width: 400px;
+   height: 300px;
+    position: relative;
+    left: 80px;
+    top:-10px;
+}
+
+.Distance-Learning{
+    display: inline-block;
+}
+
+.DL-Head{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    position: relative;
+    padding-left: 380px;
+    top: 20px;
+}
+
+.DL-note{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:white;
+    display: inline-block;
+    position: relative;
+   padding-left: 150px;
+    top: -10px;
+    text-align: center;
+}
+
+.DL-Img{
+    display: block;
+   width: 400px;
+   height: 300px;
+    position: relative;
+    right:-250px;
+    top:-10px;
+    margin: 0;
+}
+
+.Building-Our-Future{
+    display: block;
+
+}
+
+.BOF-Head{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    position: relative;
+    top: 60px; 
+    padding-left: 590px;
+
+}
+
+.BOF-note{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:white;
+    display: inline-block;
+    position: relative;
+    padding-top: 20px;
+    padding-left: 50px;
+    top: 10px;
+    text-align: center;
+}
+
+
+.Video-OurFuture{
+    padding-left: 420px ;
+
+}
 

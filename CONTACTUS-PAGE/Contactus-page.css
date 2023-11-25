@@ -1,5 +1,9 @@
+body{
+    margin: 0;
+}
+
 .header{
-    background-color: white;
+    background-color: rgb(247, 241, 241);
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -44,7 +48,7 @@
         padding-right: 10px;
         padding-left: 10px;
         padding-bottom: 5px;
-    padding-top: 0;
+        padding-top: 0;
     
         
     }
@@ -58,3 +62,142 @@
     .Home:hover , .Academic:hover, .About:hover,.Faqs:hover, .Contact:hover{
         cursor: pointer;
     }
+
+
+    .Video-div{
+        width: 1350px;
+        height:500px;
+       
+    }
+
+
+    .Front-View-Video{
+            object-fit: cover;
+
+    }
+
+.Text1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: whitesmoke;
+    font-size: 45px;
+    position: relative;
+    bottom: 630px;
+    left:0px;
+    text-align: center;
+
+}
+
+.Text2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    background-color: white;
+    width:520px;
+    text-align: center;
+    position: relative;
+    bottom: 600px;
+    left: 415px;
+    border-radius: 50px;
+
+}
+
+.Contact-Zone{
+    height: 500px;
+    width: 1350px;
+    background-color:  rgb(2, 2, 51);
+    
+    
+    
+}
+
+.contact-head{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    position: relative;
+    top: 200px;
+    padding-left: 50px;
+    font-size:40px;
+}
+
+
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+li{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    position: relative;
+    top:200px;
+    height: 45px;
+    padding-left: 70px;
+}
+
+.Email-icon{
+    height: 30px;
+    background-color: white;
+    border-radius: 30px;
+    position: relative;
+    top:150px;
+    right: 35px;
+}
+
+.Call-icon{
+    height: 30px;
+    background-color: white;
+    border-radius: 30px;
+    position: relative;
+    top:105px;
+    left:0px;
+    
+}
+
+.Call-icon1{
+    height: 30px;
+    background-color: white;
+    border-radius: 30px;
+    position: relative;
+    top:60px;
+    left: 35px;
+
+}
+
+
+.MessageBox{
+    width: 500px;
+    height: 50px;
+    position: absolute;
+   top: 850px;
+    margin-left: 430px;
+}
+
+.Message{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    margin-left: 410px;
+    position: absolute;
+   top: 800px;
+   left: 210px;
+ 
+}
+
+
+.location{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    position: relative;
+    top: -100px;
+    padding-left: 1100px;
+}
+
+.location-head{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    position: relative;
+    top: -100px;
+    padding-left: 1100px;
+    font-size:40px;
+}
