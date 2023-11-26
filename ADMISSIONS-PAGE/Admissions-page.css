@@ -1,3 +1,11 @@
+body{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+
+}
+
+
 
 .header{
     background-color: white;
@@ -58,4 +66,122 @@
     
     .Home:hover , .Academic:hover, .About:hover,.Faqs:hover, .Contact:hover{
         cursor: pointer;
+    }
+
+
+
+    .Main{
+        display: grid;
+        grid-template-columns: 1350px;
+    }
+
+    .Admissions{
+        background-color: rgb(255, 196, 0);
+        height: 100px;
+    }
+
+    .Ad-head{
+        color: rgb(2, 2, 51);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 30px;
+        padding-top: 55px;
+        margin-left: 490px;
+
+    }
+
+    .EntryR{
+        background-color: rgb(2, 2, 51);
+        height: 450px;
+    }
+
+    .EntryR-Img{
+        height: 445px;
+        width: 500px;
+        margin-left: 3px;
+        margin-top: 3px;
+    }
+
+    .Undergra{
+        background-color: white;
+        height: 200px;
+    }
+
+    .Grad{
+        background-color: rgb(2, 2, 51) ;
+        height: 300px;
+    }
+
+    .Interna{
+        background-color: white;
+        height: 200px;
+    }
+
+    .EntryR-Head{
+        color: rgb(255, 196, 0);
+        text-decoration: solid;
+        position:absolute;
+        top: 120px;
+        left: 800px;
+
+
+    }
+
+
+    .EntryR-Body{
+        color: white;
+        text-align: center;
+        position: absolute;
+        top: 170px;
+        left: 650px;
+    }
+
+    .Span1{
+        color: rgb(255, 196, 0);
+    }
+
+    .Span2{
+        color: white;
+    }
+
+    .Undergra-Head{
+        color: rgb(2, 2, 51);
+        text-decoration: solid;
+        margin-left: 530px;
+        
+
+    }
+
+
+    .Undergra-Body{
+        text-align: center;
+        font-size: 30px;
+        color:rgb(2, 2, 51);
+        padding-top: 10px;
+        margin-left: 10px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+
+    .Grad-Head{
+        color:rgb(255, 196, 0);
+        text-decoration: solid;
+        margin-left: 530px;
+        padding-top: 50px;
+
+    }
+
+    .Grad-Body{
+        text-align: center;
+        font-size: 30px;
+        color:white;
+        padding-top: 10px;
+        margin-left: 10px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .Interna-Head{
+        color: rgb(2, 2, 51);
+        text-decoration: solid;
+        margin-left: 480px;
+
     }
