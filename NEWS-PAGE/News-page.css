@@ -1,6 +1,7 @@
 body{
     background-color: rgb(2, 2, 51);
-
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -84,4 +85,121 @@ body{
         text-align: center;
         font-size: 22px;
         margin-bottom:40px;
+    }
+
+
+    .Upcoming-Section{
+        display: inline-block;
+        border-style: solid;
+        border-color: rgb(255, 196, 0);
+        height: 300px;
+        width: 1330px;
+        border-width: 1px;
+
+    }
+
+
+    .Up-Head{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: rgb(255, 196, 0);
+        margin-left: 20px;
+        
+        width:fit-content;
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color: white;
+        border-radius: 20px;
+        font-size: 25px;
+    }
+
+    .Up-Body{
+        color: white;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-left: 20px;
+    }
+
+    ul{
+        color: rgb(255, 196, 0);
+    }
+
+    .Just-Section{
+        display: inline-block;
+        border-style: solid;
+        border-color: rgb(255, 196, 0);
+        height: 500px;
+        width: 1330px;
+        border-width: 1px;
+      margin-top: 40px;
+    }
+
+
+    .Just-Head{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: rgb(255, 196, 0);
+        margin-left: 30px;
+        margin-bottom: 40px;
+        width:fit-content;
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color: white;
+        border-radius: 20px;
+        font-size: 25px;
+    }
+
+    .Just-Body{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: rgb(255, 196, 0);
+        width: 365px;
+    }
+
+
+    .Flier{
+        position: relative;
+        bottom: 180px;
+     
+        margin-left: 390px;
+        height: 400px;
+    }
+
+    .Event{
+        height: 400px;
+        position:relative;
+        top: -180px;
+    }
+
+    .Past-Section{
+        display: inline-block;
+        border-style: solid;
+        border-color: rgb(255, 196, 0);
+        height: 300px;
+        width: 1330px;
+        border-width: 1px;
+        margin-top: 0;
+        margin-bottom: 80px;
+    }
+
+.Past-Body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: rgb(255, 196, 0);
+        margin-left: 50px;
+        text-align: center;
+}
+span{
+    text-decoration: none;
+    color: white;
+    margin-right: 80px;
+}
+
+
+    .Past-Head{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: rgb(255, 196, 0);
+        margin-left: 580px;
+        margin-bottom: 40px;
+        width:fit-content;
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color: white;
+        border-radius: 20px;
+        font-size: 25px;
     }
