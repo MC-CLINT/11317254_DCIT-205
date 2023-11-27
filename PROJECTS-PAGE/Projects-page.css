@@ -1,3 +1,11 @@
+body{
+    background-color: rgb(255, 196, 0);
+    margin: 0;
+    padding: 0;
+}
+
+
+
 .header{
     background-color: white;
         display: flex;
@@ -57,4 +65,75 @@
     
     .Home:hover , .Academic:hover, .About:hover,.Faqs:hover, .Contact:hover{
         cursor: pointer;
+    }
+
+
+
+    .AI{
+        height: 500px;
+        width: 500px;
+        position: relative;
+        top: 90px;
+        left: 40px;
+
+        border-radius: 20px;
+        display: inline-block;
+    }
+
+
+    .P1{
+        display: inline-block;
+        font-size: 20px;
+        text-align: center;
+        color: rgb(3, 19, 53);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        width: 600px;
+        margin-left: 150px;
+        position: relative;
+        bottom:90px;
+    }
+
+    .H1{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: white;
+        font-size: 20px;
+        position: relative;
+        top: 210px;
+        margin-left: 850px;
+    }
+      
+
+    .P2{
+        display: inline-block;
+        font-size: 20px;
+        text-align: center;
+        color: rgb(3, 19, 53);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        width: 600px;
+        position: relative;
+     bottom: 280px;
+        margin-left: 60px;
+
+    }
+
+    .H2{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: white;
+        font-size: 20px;
+        position: relative;
+        bottom: 270px;
+        margin-left: 300px;
+
+
+    }
+
+
+    .DS{
+        position: relative;
+        top: 90px;
+
+        border-radius: 20px;
+        margin-left: 800px;
+        height: 600px;
+        width: 500px;
     }
