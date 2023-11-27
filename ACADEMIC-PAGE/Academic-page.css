@@ -1,3 +1,11 @@
+body{
+    margin: 0;
+    padding: 0;
+   background-color:white;
+   
+}
+
+
 .header{
     background-color: white;
         display: flex;
@@ -58,4 +66,282 @@
     .Home:hover , .Academic:hover, .About:hover,.Faqs:hover, .Contact:hover{
         cursor: pointer;
     }
+
+
+
+    .My-Grid{
+display: grid;
+grid-template-columns: 100%;
+
+
+    }
+    span{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: black;
+        text-decoration: solid;
+        font-size: 30px;
+        padding-left: 20px;
+    }
+   
+
+    .two{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: black;
+        z-index: 1000px;
+        margin-left: 500px;
+
+    }
+
+    .Three{
+        color: rgb(255, 196, 0);
+        
+        position: relative;
+        bottom: 30px;
+    }
+
+    .Six{
+        color: rgb(2, 2, 51);
+        
+        position: relative;
+        bottom: 30px;
+
+    }
+
+    .Five{
+        color: rgb(2, 2, 51);
+        position: relative;
+        top: 15px;
+    }
     
+    .Four{ 
+        margin-top: 70px;
+        position: relative;
+        top: 50px;
+        color: rgb(255, 196, 0);
+    }
+
+    .Undergra-Courses{
+     background-color:    rgb(2, 2, 51);
+     height: 970px;
+     margin-bottom: 5px;
+     
+
+    }
+
+    .Undergra-Courses-head{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: rgb(255, 196, 0);
+        margin-top: 80px;
+        margin-left: 430px;
+        font-size: 45px;
+    }
+
+    .MPhil-head{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: rgb(2, 2, 51);
+        font-size: 30px;
+        margin-left: 430px;
+       margin-top: 10px;
+
+    }
+
+    .MSc-head{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: rgb(255, 196, 0);
+        font-size: 30px;
+        margin-left: 430px;
+       margin-top: 70px;
+
+    }
+
+    .PHD-head{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: rgb(2, 2, 51);
+        font-size: 30px;
+        margin-left: 400px;
+
+    }
+
+    .PHD-body2{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: white;
+        position: relative;
+        bottom: 350px;
+        margin-top:90px;
+        margin-left: 700px;
+    }
+
+.PHD-body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white; 
+    position: relative ;
+   top: 30px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+   
+}
+
+.MPhil-body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    position: relative;
+    bottom: 10px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.MSc-body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    position: relative;
+    bottom: 5px;
+    margin-top: 80px;
+    margin-left: 20px;
+
+}
+
+.MSc-body2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    position: relative;
+    bottom: 400px;
+    margin-top:80px;
+    margin-left: 700px;
+    
+}
+
+.MPhil-body2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    position: relative;
+    bottom: 350px;
+    margin-top:10px;
+    margin-left: 700px;
+
+}
+
+    .L100{
+        background-color: white;
+        display: inline-block;
+        margin-left: 12px;
+        border-style: solid;
+        border-color: white;
+        border-width: 0.5px;
+        width:315px;
+        height: fit-content;
+    }
+
+    .L200{
+        background-color: white;
+        display: inline-block;
+        margin-left: 12px;
+        border-style: solid;
+        border-color: white;
+        border-width: 0.5px;
+        width:315px;
+       position: relative;
+     bottom  : 75px;
+        height: 755px;
+        
+
+    }
+
+    .L300{
+        background-color: white;
+        display: inline-block;
+        margin-left: 12px;
+        border-style: solid;
+        border-color: white;
+        border-width: 0.5px;
+        width:315px;
+       position: relative;
+     top: -55px;
+        height: 755px;
+
+    }
+
+    .L400{
+        background-color: white;
+        display: inline-block;
+        margin-left: 12px;
+        border-style: solid;
+        border-color: white;
+        border-width: 0.5px;
+        width:315px;
+       position: relative;
+       top: 20px;
+        height: 755px;
+
+    }
+
+    .L100-head{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: rgb(255, 196, 0);
+    }
+
+    .L200-head{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: rgb(255, 196, 0);
+
+    }
+
+    .First-body{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color:  rgb(2, 2, 51);
+
+    }
+    .MPhil{
+        background-color: rgb(255, 196, 0);
+        height: 400px;
+        margin-bottom: 5px;
+    }
+
+    .MSc{
+        background-color:rgb(2, 2, 51);
+        height: 550px;
+        margin-bottom: 5px;
+    }
+
+    .PHD{
+        background-color:rgb(255, 196, 0);;
+        height: 600px;
+        margin-bottom: 5px;
+    }
+
+    .Calendar{
+        background-color:rgb(2, 2, 51) ;
+        height:300px;
+        margin-bottom: 5px;
+    }
+
+    .Calendar-head{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 50px;
+        margin-left: 450px;
+        color: rgb(255, 196, 0);
+
+    }
+
+    .Calendar-body{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: white;
+        font-size: 20px;
+        margin-left: 170px;
+        margin-bottom: 150px;
+    }
+
+    .Calendar-button{
+        font-size: 35px;
+        border-radius: 30px;
+        margin-top: 20px;
+        margin-left:390px;
+         width: 200px;
+        height: 50px;
+    }
+
+    .Calendar-button:hover{
+        cursor: pointer;
+        background-color:rgb(255, 196, 0) ;
+        color: white;
+    }
+
